@@ -69,6 +69,8 @@ em { font-style: normal; }
 .watch-list > div { align-items: start; border-top: 1px solid var(--line); display: flex; gap: 30px; padding: 18px 0; }
 .watch-list > div > span { color: var(--orange); font-size: .75rem; font-weight: 700; }
 .watch-list strong { color: var(--ink); display: block; margin-bottom: 4px; }
+.watch-link { border-bottom: 1px solid var(--orange); color: var(--orange); display: inline-block; font-weight: 700; margin-top: 28px; padding-bottom: 5px; }
+.watch-link:hover { color: var(--ink); }
 .contact-section { background: var(--orange); color: var(--ink); max-width: none; text-align: center; }
 .contact-section h2 { margin: 0 auto 25px; }
 .contact-section > p { color: var(--ink); margin: 0 auto 30px; }
