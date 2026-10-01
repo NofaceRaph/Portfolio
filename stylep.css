@@ -7,6 +7,7 @@
 	--cream: #ffffff;
 	--mint: #efefef;
 	--orange: #7a1d1d;
+	--orange-deep: #4f1010;
 	--line: #d9d9d9;
 	--dark: #111111;
 }
@@ -32,9 +33,10 @@ em { font-style: normal; }
 .hero-intro { font-size: 1.1rem; margin: 38px 0 30px; max-width: 440px; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; }
 .button { border: 1px solid var(--ink); display: inline-flex; font-size: .78rem; font-weight: 700; gap: 16px; padding: 13px 18px; text-transform: uppercase; }
-.button-primary { background: var(--ink); color: var(--cream); }
-.button-primary:hover { background: #000000; border-color: #000000; }
-.button-secondary:hover { background: rgba(0,0,0,.05); }
+.button-primary { background: var(--orange); border-color: var(--orange); color: var(--cream); }
+.button-primary:hover { background: var(--orange-deep); border-color: var(--orange-deep); }
+.button-secondary { border-color: var(--orange); color: var(--orange); }
+.button-secondary:hover { background: rgba(122, 29, 29, 0.08); }
 .hero-meta { border-top: 1px solid rgba(17,17,17,.3); bottom: 35px; display: flex; font-size: .7rem; justify-content: space-between; left: 9vw; letter-spacing: .12em; padding-top: 15px; position: absolute; right: 9vw; }
 .section, .contact-section { margin: 0 auto; max-width: 1240px; padding: 120px 9vw; }
 .split-section { display: grid; gap: 9vw; grid-template-columns: .8fr 1fr; }
