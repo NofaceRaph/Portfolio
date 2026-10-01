@@ -37,7 +37,7 @@ em { font-style: normal; }
 .button-primary:hover { background: var(--orange-deep); border-color: var(--orange-deep); }
 .button-secondary { border-color: var(--orange); color: var(--orange); }
 .button-secondary:hover { background: rgba(122, 29, 29, 0.08); }
-.hero-meta { border-top: 1px solid rgba(17,17,17,.3); bottom: 35px; display: flex; font-size: .7rem; justify-content: space-between; left: 9vw; letter-spacing: .12em; padding-top: 15px; position: absolute; right: 9vw; }
+.hero-meta { bottom: 35px; display: flex; font-size: .7rem; justify-content: space-between; left: 9vw; letter-spacing: .12em; padding-top: 15px; position: absolute; right: 9vw; }
 .section, .contact-section { margin: 0 auto; max-width: 1240px; padding: 120px 9vw; }
 .split-section { display: grid; gap: 9vw; grid-template-columns: .8fr 1fr; }
 .section-copy { color: var(--muted); max-width: 540px; }
